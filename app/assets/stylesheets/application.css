@@ -15,5 +15,36 @@
  */
 
  body {
-     background-color: rgb(218, 218, 218);
+    background: rgb(219,187,240);
+    background: linear-gradient(90deg, rgba(219,187,240,1) 53%, rgba(124,233,255,1) 100%);
+ }
+
+ .logo {
+     color:#4C4452;
+     font-family: 'Fredoka One', cursive;
+ }
+
+ .alert-link{
+    color:#49dced;
+ }
+
+ .submit{
+    border-color:#49dced;
+    color:#49dced;
+ }
+
+ .submit:hover{
+    background-color:#49dced;
+    color: white;
+ }
+
+ .alert-link:hover {
+     color: #49dced;
+ }
+
+ .card {
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow:  15px 15px 50px #bababa, 
+             -15px -15px 50px #ffffff;
  }
