@@ -11,6 +11,6 @@ class Link < ApplicationRecord
     end
 
     def shortened_url
-        "https://polar-escarpment-70262.herokuapp.com/#{lookup_code}"
+        "https://lnkst.herokuapp.com/#{lookup_code}"
     end
 end
