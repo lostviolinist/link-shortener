@@ -48,3 +48,15 @@
     box-shadow:  15px 15px 50px #bababa, 
              -15px -15px 50px #ffffff;
  }
+
+ .github{
+    text-align: center;
+ }
+
+ .repo {
+    color: black;
+ }
+
+ .repo:hover{
+    color: black;
+ }
